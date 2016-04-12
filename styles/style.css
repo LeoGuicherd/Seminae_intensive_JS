@@ -1,0 +1,137 @@
+.clearBoth {
+    clear: both
+}
+
+body {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Futura", sans-serif;
+}
+
+
+/*************************
+
+
+        SIDEBAR
+
+
+*************************/
+
+#sideBar {
+    width: 250px;
+    height: 1018px;
+    background-color: #3a3a3a;
+    display: inline-block;
+    position: fixed;
+}
+
+#logo {
+    background-color: #323232;
+    padding: 30px;
+}
+
+#monCompte {
+    margin: 35px 0;
+}
+
+#monCompte img {
+    margin-left: 88px;
+}
+
+#monCompte p {
+    margin-left: 70px;
+    margin-top: 0;
+}
+
+#monCompte a {
+    text-decoration: none;
+    color: #ffffff;
+    display: none;
+}
+
+#menu {
+    width: 250px;
+    ;
+    background-color: #3a3a3a;
+}
+
+#menu ul {
+    list-style: none;
+    margin-left: 55px;
+}
+
+#menu li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#menu a {
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    top: 8px;
+    left: 45px;
+    color: #ffffff;
+}
+
+
+
+
+/***********************
+
+
+          SLIDER
+
+
+************************/
+
+#slider {
+    display: inline-block;
+    margin-left: 250px;
+    width: 960px;
+    height: 450px;
+    overflow: hidden;
+    position: fixed;
+}
+
+#slider ul {
+    /* 4 images donc 4 x 100% */
+    width: 400%;
+    height: 450px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#slider li {
+    float: left;
+    position: relative;
+}
+
+#slider li p {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    font-size: 45px;
+    text-shadow: 2px 2px #000000;
+}
+
+/*********************
+
+
+      COMMUNAUTY BAR
+
+
+**********************/
+
+#comBar{
+    width: 390px;
+    background: #2980b9;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#comBar p {
+    margin: 0;
+}

@@ -1,0 +1,70 @@
+var music = [
+  {"genre": "Pop/Rock", 
+  "artiste": [{
+    "Arctic Monkeys": [{
+      "album name": "What ever people say I am, that's what I'm not", "album songs": [{
+        "song": "The view from the Afternoon",
+        "time": "3:38"
+      },{
+        "song": "Dancing Shoes",
+        "time": "2:21" 
+      }]
+    }]
+  },
+    {"Ben Harper": [{
+      "album name": "Diamond on the inside", "album songs": [{
+        "song": "So high, so low",
+        "time": "3:44"
+      },{
+        "song": "Diamonds on the inside",
+        "time":"4:27"}]
+      }]
+    }]
+  },
+  {"genre": "Metal",
+  "artiste": [{
+    "Dope": [{
+      "album name": "Life", "album songs": [{
+        "song":"Thanks fo nothing",
+        "time":"2:52"
+      }{
+        "song": "Stop",
+        "time":"2:52"
+      }]
+    }]
+  },{
+    "Soilwork": [{
+      "album name": "Figure number five", "album songs":[{
+        "song":"The mindmaker",
+        "time":"3:33"
+      },{
+        "songs":"Distorsion sleep",
+        "time":"3:46"
+      }]
+    }]
+    }
+  ]},
+  {"genre": "Electro",
+  "artiste": [{
+    "Pendulum": [{
+      "album name" : "Gratest Hits", "album songs": [{
+        "song": "Hold your color",
+        "time": "5:27"
+      },{
+        "song":"Masochist",
+        "time":"4:54"
+      }]
+    }]
+  },
+  {
+    "Madeon": [{
+      "album name": "Madeon Singles", "album songs":[{
+        "song":"Fianle",
+        "time":"3:25"
+      },{
+        "song":"The city",
+        "time":"3:54"
+      }]
+    }]
+  }]}
+]
